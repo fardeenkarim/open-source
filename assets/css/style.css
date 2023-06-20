@@ -1,0 +1,58 @@
+.custom_menu{
+  margin-bottom: 10px;
+}
+
+.custom_body{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.custom_table {
+  border: solid 1px #000;
+  color: #000;
+  background-color: #f1faee;
+}
+
+.add_teacher {
+  text-align: center;
+  border: solid 1px #000;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.container_for_status{
+  white-space: nowrap;
+}
+
+.custom_online_1{
+  display: inline-block;
+  background-color: #39ff14;
+  border-radius: 50%;
+  border: solid 1px #1baa00;
+  color: #000;
+  text-align: center;
+  padding: 2px;
+  width: 15px;
+  height: 15px;
+  margin-bottom: -2px;
+}
+
+.custom_online_2{
+  display: inline-block;
+  margin: 0px;
+}
+
+.delete_box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: solid 2px #B00000;
+  border-radius: 10px;
+  background-color: #F00;
+  color: #fff;
+  text-align: center;
+  max-width: 420px;
+  display: flex;
+}
