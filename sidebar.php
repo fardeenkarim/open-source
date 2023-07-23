@@ -88,7 +88,7 @@
             </a>
           </li>
           <!-- Account Delete Part -->
-          <li class="nav-item custom_menu">
+          <!-- <li class="nav-item custom_menu">
             <a class="nav-link active" aria-current="page" href="delete-account.php">
               <i class="icon">
                 <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-20">
@@ -98,7 +98,7 @@
               </i>
               <span class="item-name">Delete My Account</span>
             </a>
-          </li>
+          </li> -->
           <!-- logout Part -->
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="logout.php">
