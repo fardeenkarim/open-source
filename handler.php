@@ -5,7 +5,7 @@ require 'PHPMailer/Exception.php';
 require 'PHPMailer/PHPMailer.php';
 require 'PHPMailer/SMTP.php';
 $mail = new PHPMailer(true);
-$mail_to_email = 'fardeenkarim0@gmail.com';
+$mail_to_email = '***';
 $mail_to_name = 'Fardeen Karim';
 try {
 	$mail_from_name = isset( $_POST['name'] ) ? $_POST['name'] : '';
@@ -15,8 +15,8 @@ try {
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'fardeenkarim0@gmail.com';
-	$mail->Password = 'cnwrjssaekvwenxg';
+	$mail->Username = '***';
+	$mail->Password = '***';
 	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 	$mail->Port = 465;
 	$mail->setFrom($mail_to_email, $mail_to_name);
