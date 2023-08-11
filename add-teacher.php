@@ -5,7 +5,7 @@ connect_header()
 <div class="conatiner-fluid content-inner py-0 custom_body">
   <!-- FOR FUTURE CODE START -->
   <div class="bd-example">
-    <form action="add.php" method="post">
+    <form action="add.php" method="post" enctype="multipart/form-data">
       <h2 class="add_teacher">Add Teacher</h2>
       <div class="mb-3">
         <label for="" class="form-label">First Name</label>
@@ -50,6 +50,10 @@ connect_header()
       <div class="mb-3">
         <label for="" class="form-label">Country</label>
         <input type="text" name="country" class="form-control" id="country" required>
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Profile Picture</label>
+        <input type="file" name="user_img" class="form-control" id="user_img" required>
       </div>
       <button type="submit" class="btn btn-primary">Add To Database</button>
     </form>
